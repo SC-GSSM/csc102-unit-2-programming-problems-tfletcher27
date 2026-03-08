@@ -25,7 +25,7 @@ public class Unit2 {
      */
     public static double calculateSquareRoot(double number) {
         // TODO: Implement this method using Math.sqrt
-        return Math.sqrt(double,number);
+        return Math.sqrt(number);
     }
 
     /**
@@ -46,7 +46,7 @@ public class Unit2 {
      */
     public static int findMax(int num1, int num2) {
         // TODO: Implement this method using Math.max
-        return Math.max();
+        return Math.max(num1, num2);
     }
 
     /**
@@ -78,7 +78,7 @@ public class Unit2 {
      */
     public static String getSubstring(String str, int beginIndex, int endIndex) {
         // TODO: Implement this method using String.substring
-        return str.substring();
+        return str.substring(beginIndex,endIndex);
     }
 
     /**
@@ -100,7 +100,7 @@ public class Unit2 {
      */
     public static String replaceCharacter(String str, char oldChar, char newChar) {
         // TODO: Implement this method using String.replace
-        return str.replace();
+        return str.replace(oldChar,newChar);
     }
 
     /**
