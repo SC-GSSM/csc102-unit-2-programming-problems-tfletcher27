@@ -15,7 +15,7 @@ public class Unit2 {
      */
     public static String concatenateStrings(String str1, String str2) {
         // TODO: Implement this method using String concatenation
-        return str1 + str2;
+        return str1 +" " + str2;
     }
 
     /**
@@ -46,8 +46,12 @@ public class Unit2 {
      */
     public static int findMax(int num1, int num2) {
         // TODO: Implement this method using Math.max
-        return Math.max(num1, num2);
-    }
+        if (num1> num2){
+            return num1;
+        }
+        return num2;
+        }
+    
 
     /**
      * Returns the length of a string.
@@ -56,7 +60,7 @@ public class Unit2 {
      */
     public static int getStringLength(String str) {
         // TODO: Implement this method using String.length
-        return str.getStringLength();
+        return str.length();
     }
 
     /**
@@ -66,7 +70,7 @@ public class Unit2 {
      */
     public static int roundValue(double value) {
         // TODO: Implement this method using Math.round
-        return Math.round(value);
+        return(int) Math.round(value);
     }
 
     /**
